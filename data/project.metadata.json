@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"legal-oa.project"}],"uuid":"cb362a2320904feaa821e57ae27bb1b8"}

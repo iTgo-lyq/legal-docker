@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"legal-oa.notice"}],"uuid":"10821f4588844e8e898eaee76de16f8f"}

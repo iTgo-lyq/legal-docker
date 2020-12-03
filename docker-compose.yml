@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: build/app.dockerfile
+    ports:
+      - 2021:2021
+    depends_on:
+      - redis
+      - mongo
+  redis:
+    image: "redis"
+    restart: always
+  mongo:
+    build:
+      context: .
+      dockerfile: build/mongo.dockerfile
+    restart: always
